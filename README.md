@@ -2,9 +2,7 @@ Run Locally
 To run this project on your local system:
 
 # Clone the repository
-git clone https://github.com/V939271/TDD-TODO.git
-cd TDD-TODO
-
+git clone 
 # Install dependencies
 npm install
 
@@ -86,5 +84,6 @@ Features
  Tested with Jest + React Testing Library (components + hook)
 
  Reusable and modular components
+
 
  Ready for deployment (Netlify/Vercel)
