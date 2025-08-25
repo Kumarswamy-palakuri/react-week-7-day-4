@@ -1,3 +1,91 @@
+# React TDD To-Do App
+
+This project is a simple To-Do list application built with React. The primary focus of this project is on practicing and demonstrating **Test-Driven Development (TDD)**. The application was created using Create React App.
+
+The core idea is to write tests for a feature *before* writing the implementation code. This ensures that the application's components and user interactions are well-tested and behave as expected. This repository corresponds to the work done for a "React Week 7, Day 4" module.
+
+## Features
+
+*   Add new tasks to a list.
+*   View all the tasks.
+*   Mark tasks as complete.
+*   Delete tasks from the list.
+*   Comprehensive test suite ensuring all functionalities work correctly.
+
+## Project Focus: Test-Driven Development (TDD)
+
+This project heavily utilizes the **React Testing Library** to write user-centric tests. The philosophy is to test the application in the same way a user would interact with it, focusing on component behavior rather than implementation details.
+
+Key libraries used for testing:
+*   **@testing-library/react**: Provides core utilities for testing React components.
+*   **@testing-library/jest-dom**: Adds custom Jest matchers for asserting on DOM nodes.
+*   **@testing-library/user-event**: Simulates real user interactions like typing, clicking, etc.
+
+## Technologies Used
+
+*   **React (v19)**
+*   **Create React App**
+*   **Jest** for test running
+*   **React Testing Library** for component testing
+
+## Getting Started
+
+To get a local copy up and running, follow these simple steps.
+
+### Prerequisites
+
+Make sure you have Node.js and npm installed on your machine.
+*   **npm**
+    ```
+    npm install npm@latest -g
+    ```
+
+### Installation
+
+1.  **Clone the repository**
+    ```
+    git clone https://github.com/Kumarswamy-palakuri/react-week-7-day-4.git
+    ```
+2.  **Navigate to the project directory**
+    ```
+    cd react-week-7-day-4
+    ```
+3.  **Install NPM packages**
+    ```
+    npm install
+    ```
+
+## Available Scripts
+
+In the project directory, you can run the following commands:
+
+### `npm start`
+
+Runs the app in development mode.
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser. The page will reload when you make changes.
+
+### `npm test`
+
+Launches the test runner in interactive watch mode.
+This is the primary command to use while practicing TDD. It will automatically re-run tests as you save changes to your files.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+---
+
+
+
+
+
 Run Locally
 To run this project on your local system:
 
@@ -87,3 +175,4 @@ Features
 
 
  Ready for deployment (Netlify/Vercel)
+
